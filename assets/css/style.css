@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .toggle-left, .toggle-right {
+    position: absolute;
+    top: 10px;
+    padding: 10px;
+    z-index: 10;
+  }
+  
+  .toggle-left {
+    left: 10px;
+  }
+  
+  .toggle-right {
+    right: 10px;
+  }
+  
+  .panel {
+    width: 250px;
+    background: #f0f0f0;
+    overflow-y: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .panel-left {
+    transform: translateX(-250px);
+  }
+  
+  .panel-right {
+    transform: translateX(250px);
+  }
+  
+  .panel-left.active {
+    transform: translateX(0);
+  }
+  
+  .panel-right.active {
+    transform: translateX(0);
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    transition: margin 0.3s ease;
+  }
+  
+  body.left-open .main-content {
+    margin-left: 250px;
+  }
+  
+  body.right-open .main-content {
+    margin-right: 250px;
+  }
+  
