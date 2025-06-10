@@ -1,9 +1,21 @@
-<nav>
-    <ul>
-      <li><a href="{{ '/' | relative_url }}">Home</a></li>
-      <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-      <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
-      <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
-    </ul>
-  </nav>
-  
+<header>
+    <!-- Topbar with page title -->
+    <div class="topbar">
+        <h2>{{ page.title | default: site.title }}</h2>
+    </div>
+
+    <!-- Left Panel Toggle -->
+    {% if site.logo %}
+  <!-- Toggle button with logo -->
+  <button id="toggleSidebar" class="toggle-btn" aria-label="Toggle left panel">
+    <img src="{{ site.logo | relative_url }}" alt="Toggle menu" class="toggle-logo">
+  </button>
+{% else %}
+  <!-- Fallback icon toggle -->
+  <button id="toggleSidebar" class="toggle-btn" aria-label="Toggle left panel">☰</button>
+{% endif %}
+
+
+    <!-- Right Panel Toggle -->
+    <button class="toggle-btn right" id="toggleRightPanel">📑</button>
+</header>
