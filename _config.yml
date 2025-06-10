@@ -1,7 +1,7 @@
 title: BlueStar Theme Demo Site
 description: A demo site showcasing the BlueStar Jekyll theme.
-baseurl: "" # leave this empty if deploying to main domain
-url: "https://zbule.github.io/bluestar-theme"
+baseurl: "/BlueStar-Theme" # repository name for GitHub Pages
+url: "https://zbule.github.io"
 
 
 # Optional: add plugins if needed
