@@ -6,6 +6,9 @@ modify the _config.yaml file
 install the theme
 ```
 remote_theme: zbule/bluestar-theme
+
+plugins:
+  - jekyll-remote-theme
 ```
 
 theme settings
