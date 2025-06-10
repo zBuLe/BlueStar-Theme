@@ -34,3 +34,12 @@ nav:
   - title: 🗺️ Roadmap
     url: /roadmap
 ```
+
+Social
+
+```
+social:
+  - title: DeviantArt
+    url: https://deviantart.com/zbule
+    icon: fab fa-deviantart
+```
