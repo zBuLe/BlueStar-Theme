@@ -3,7 +3,6 @@ description: A demo site showcasing the BlueStar Jekyll theme.
 baseurl: "" # leave this empty if deploying to main domain
 url: "https://yourusername.github.io/bluestar-theme"
 
-theme: bluestar-theme
 
 # Optional: add plugins if needed
 plugins:
