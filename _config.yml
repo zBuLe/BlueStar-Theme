@@ -23,12 +23,12 @@ kramdown:
 
 # Dynamic sidebar navigation
 nav:
-  - title: 🧪 Alpha
+  - title: .🏠 Home
     url: /
-  - title: 📜 GDD
-    url: /gdd
-  - title: 🛠️ Devlog
-    url: /devlog
+  - title: 📜 Readme
+    url: /README.html
+  - title: 🛠️ About
+    url: /about
   - title: 🗺️ Roadmap
     url: /roadmap
 
